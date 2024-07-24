@@ -1,0 +1,220 @@
+
+
+/* loading div */
+div.loading-upload{
+    width:200px;
+    height:36px;
+    cursor: pointer;
+    text-align:center;
+    background: url('../../../public/images/loadings/loading-bubbles3.svg') no-repeat center 10px !important;
+    color: #0d45a1 !important;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d45a1', endColorstr='#0d45a1',GradientType=0);
+    text-align:center;
+    padding:85px 0 0 0;
+    margin:0px auto;
+
+    /* :class="{ loading-upload: uploadingProcess } */
+
+}
+
+div.loading-upload:after{
+    content: "Carregando ...";
+    color:#1f2631;
+    text-align:center;
+    font-family: 'Muli' , Helvetica, Arial, sans-serif;
+}
+
+
+/*  loading */
+.loading {
+    font-size:16px;
+    width: 100% !important;
+    cursor: pointer;
+    color: #1509a1;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border-radius:6px;
+    float:left;
+    text-transform:uppercase;
+    text-align:center;
+    background:#2f889a url('../../../public/images/loadings/loading-bubbles.svg') no-repeat center center !important;
+    color:#FFF !important;
+
+}
+
+svg.is-left {
+  margin-right:20px;
+}
+svg.is-right {
+  margin-left:20px;
+}
+
+.loading span {
+    display:none;
+    color:#FFF !important;
+}
+
+button.btn_full {
+  position: relative;
+}
+button.btn_full.btn-loading span.text{
+  display:none;
+}
+
+button.btn_full.btn-loading div.btn-area{
+  cursor: not-allowed;
+  pointer-events: none;
+  text-align:left !important;
+  background-image :url('../../../public/images/loadings/loading-bubbles.svg')  !important;
+  background-position: center 5px;
+  background-repeat: no-repeat;
+  color: #FFF !important;
+  width:100%;
+  height:52px;
+  display:block;
+
+}
+
+
+
+/* ----------------------------------------------------------------------  BTN_CL_LEFT */
+button.btn_cl_left , a.btn_cl_left {
+    text-align:left !important;
+    justify-content: left;
+}
+
+button.btn_cl_left svg , a.btn_cl_left svg{
+    font-size:19px;
+    margin-right:15px;
+}
+
+button.btn_cl_left span  , a.btn_cl_left span{
+    font-size:17px;
+}
+
+button.btn_cl_left.btn-loading div.btn-area, a.btn_cl_left.btn-loading div.btn-area{
+    cursor: not-allowed;
+    pointer-events: none;
+    background-image :url('../../../public/images/loadings/loading-spin.svg')  !important;
+    background-position: 14px center;
+    background-repeat: no-repeat;
+    color: #FFF !important;
+}
+
+button.btn_cl_left.btn-loading div.btn-area:after , a.btn_cl_left.btn-loading div.btn-area:after{
+    padding:0 0 0 40px;
+    content: "Carregando ...";
+    text-align:left !important;
+}
+
+button.btn_cl_left.btn-loading span , a.btn_cl_left.btn-loading span{
+    display:none;
+}
+
+button.big_1 {
+    padding:25px 27px 25px 27px !important;
+}
+
+button.big_1 span{
+    font-size:24px !important;
+    font-family:RotisSans, Helvetica, Arial, Sans-Serif;
+}
+
+
+button.big_1.btn-loading:after {
+    font-size:22px;
+    font-family:RotisSans, Helvetica, Arial, Sans-Serif;
+}
+
+button.big_1  svg{
+    font-size:24px;
+    margin-right:15px;
+}
+
+/* ----------------------------------------------------------------------  BTN_CL_CLENTER */
+button.btn_cl_center {
+   height:40px;
+   text-transform: uppercase;
+   border-radius:6px;
+
+}
+
+button.btn_cl_center svg {
+    font-size:19px;
+    margin-right:15px;
+}
+
+button.btn_cl_center span {
+    font-size:16px;
+    font-family:Myfont, Helvetica, Arial, Sans-Serif;
+}
+
+button.btn_cl_center.btn-loading{
+    cursor: not-allowed;
+    pointer-events: none;
+    background-image :url('../../../public/images/loadings/loading-spin.svg')  !important;
+    background-position: calc(50% - 74px)  center;
+    background-repeat: no-repeat;
+    color: #FFF !important;
+}
+
+button.btn_cl_center.btn-loading:after{
+    content: "Carregando ...";
+    font-family:Myfont, Helvetica, Arial, Sans-Serif;
+    text-align:left !important;
+    padding-left:40px;
+}
+
+button.btn_cl_center.btn-loading span{
+    display:none;
+}
+/*
+ul.sidebar_list_actions li {
+    padding:4px 0 4px 0;
+}
+ul.sidebar_list_actions li a {
+    font-size:16px;
+    color:#1b384a;
+    display:inline-block;
+}
+ul.sidebar_list_actions li a {
+    display:table;
+}
+ul.sidebar_list_actions li a:hover {
+    text-decoration: underline;
+}
+
+ul.sidebar_list_actions li a svg {
+    font-size:18px;
+    margin:0 16px 0 0;
+    display:table-row;
+
+}
+ul.sidebar_list_actions li a span {
+    display:table-cell;
+    font-size:16px;
+}*/
+
+
+button.btn-footer-register {
+  background:#18885d;
+  color:#FFF;
+  font-size:18px;
+  height:48px;
+  -webkit-border-radius: 0px 50px 50px 0px;
+  border-radius: 0px 50px 50px 0px;
+}
+button.btn-footer-register:hover, button.btn-footer-register:focus  {
+  color:#FFF !important;
+}
+button.btn-footer-register.btn-loading {
+  background-position: 0px center;
+}
+button.btn-footer-register.btn-loading div.btn-area:after{
+  width:100px;
+  content: "" !important;
+}

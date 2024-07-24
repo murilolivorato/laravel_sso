@@ -1,0 +1,70 @@
+
+/* --------------------   errors  */
+.error-msg {
+  clear:both;
+  color:#8e1310;
+  font-size:17px !important;
+  padding:8px !important;
+  margin:20px 0 0 0;
+  float:left;
+  font-family:Myfont, Helvetica, Arial, sans-serif;
+  display:block;
+  background: #fff9ed url(http://localhost:8081/public/images/arrowup.gif) no-repeat;
+  background-position:10px 12px;
+  border-radius:6px;
+  border:1px solid #f5e7cd;
+  text-indent:20px;
+  width:98% !important;
+}
+
+.error-msg-2 {
+  clear:both;
+  color:#FFF;
+  font-size:17px !important;
+  padding:12px 82px 12px 54px;
+  margin:20px 0 0 0;
+  float:left;
+  font-family:Myfont, Helvetica, Arial, sans-serif;
+  display:block;
+  background:  #115783 url(http://localhost:8081/public/images/arrowup_wight.gif) no-repeat;
+  background-position:22px 18px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-indent:20px;
+  text-align: left;
+}
+
+
+.error-msg-3 {
+  clear:both;
+  color:#8e1310;
+  font-size:17px !important;
+  margin:20px 0 0 0;
+  padding:0 0 0 8px;
+  float:left;
+  font-family:Myfont, Helvetica, Arial, sans-serif;
+  display:block;
+  background: url(http://localhost:8081/public/images/arrowup.gif) no-repeat;
+  background-position:10px 7px;
+  text-indent:20px;
+  width:98% !important;
+}
+
+/*
+.error-msg-2 {
+  clear:both;
+  color:#8e1310;
+  font-size:16px;
+  margin:0px 0 0 0;
+  padding:0 0 0 8px;
+  float:left;
+  font-family:Myfont, Helvetica, Arial, sans-serif;
+  display:block;
+  background: url(http://localhost:8081/public/images/arrowup.gif) no-repeat;
+  background-position:10px 7px;
+  text-indent:20px;
+  width:98% !important;
+
+}
+*/

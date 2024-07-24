@@ -1,0 +1,303 @@
+
+/* --------------------------------------------  vue modal */
+
+.modal-mask {
+    position: fixed;
+    z-index: 9000000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+
+
+}
+.modal-mask form {
+    padding:0px;
+    margin:0px;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding:40px;
+
+
+}
+
+.modal-container {
+    width: 600px;
+    margin: 0px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius:8px;
+    position:relative;
+    padding: 20px 30px 20px 30px !important;
+}
+
+.modal-container.big1{
+
+    max-width: 1100px !important;
+    width:100%;
+}
+
+.modal-container.big2{
+
+  max-width: 900px !important;
+  width:100%;
+}
+
+.modal-container.big3{
+
+  max-width: 800px !important;
+  width:100%;
+}
+
+.modal-container.big4{
+  max-width: 1300px !important;
+  width:100%;
+}
+
+/* ------------------------  img-modal */
+.modal-mask.image-modal .modal-container {
+    width:auto;
+    height:auto;
+    padding: 8px !important;
+    border-radius:0px !important;
+}
+
+
+.modal-mask.image-modal .modal-container.horizontal {
+    max-width: 950px !important;
+
+}
+.modal-mask.image-modal .modal-container.vertical {
+    max-width: 550px !important;
+
+}
+
+.modal-mask.image-modal .modal-body {
+    padding: 0px !important;
+    margin:0px !important;
+}
+
+
+div.modal-boddy-scrow {
+
+    max-width: 100%;
+    overflow-y: auto;
+    overflow-x:hidden;
+
+}
+
+
+div.modal-boddy-scrow::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #cfcfcf;
+}
+
+div.modal-boddy-scrow::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+div.modal-boddy-scrow::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+
+
+
+
+
+
+
+div.modal-body .checkbox {
+    padding:0 26px 0 0;
+}
+
+.modal-mask.image-modal .modal-container img {
+    width:100%;
+
+
+}
+
+
+
+.modal-mask  a.close-modal {
+
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0.35em;
+    height: 0.35em;
+    border: none;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    font: normal 8em/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #1abc9c;
+
+    cursor:pointer !important;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index:900000000;
+}
+
+.modal-mask  a.close-modal:hover{
+    background: #4bc6ae;
+
+}
+
+.modal-mask  a.close-modal::before {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0.16em;
+    height: 0.04em;
+    position: absolute;
+    content: "";
+    top: 0.15em;
+    left: 0.100em;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #ffffff;
+    text-shadow: none;
+    -webkit-transform: rotateZ(45deg)   ;
+    transform: rotateZ(45deg)   ;
+}
+
+.modal-mask  a.close-modal::after {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0.16em;
+    height: 0.04em;
+    position: absolute;
+    content: "";
+    top: 0.15em;
+    left: 0.100em;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #ffffff;
+    text-shadow: none;
+    -webkit-transform: rotateZ(-45deg)   ;
+    transform: rotateZ(-45deg)   ;
+}
+
+.modal-header { padding:0px;margin:0px;}
+.modal-header h1 {
+    color: #141414;
+    font-size:20px;
+    padding-top:16px;
+
+}
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-header {
+
+    padding: 0px;
+    margin:0px;
+}
+.modal-header h2{
+    font-size:20px;
+    padding:0px;
+    margin:0px;
+}
+
+.modal-body {
+    padding: 10px 0 10px 0;
+    margin:0px;
+}
+
+.modal-body label {
+    font-weight:normal;
+    font-size:16px;
+}
+
+.modal-body div.field {
+    padding-top:24px;
+    clear:both;
+}
+
+
+.modal-body input.input , .modal-body textarea{
+    margin:12px 0 0 0;
+}
+
+.modal-body div.form-group {
+    width:100%;
+    clear:both;
+    padding:10px 0 10px 0;
+}
+
+.image-modal .modal-body {
+    padding:0px;
+}
+
+.modal-footer{
+    padding: 20px 0 15px 0;
+    margin:0px;
+    clear:both;
+}
+
+
+
+.modal-body h5{
+
+    font-size:17px;
+    padding:0px;
+    margin:0 0 16px 0;
+}
+
+.modal-default-button {
+    float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

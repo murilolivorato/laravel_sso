@@ -1,0 +1,7 @@
+Array
+(
+    [error] => invalid_request
+    [error_description] => The request is missing a required parameter, includes an invalid parameter value, includes a parameter more than once, or is otherwise malformed.
+    [hint] => Authorization code has been revoked
+    [message] => The request is missing a required parameter, includes an invalid parameter value, includes a parameter more than once, or is otherwise malformed.
+)
