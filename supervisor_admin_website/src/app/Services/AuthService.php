@@ -128,7 +128,7 @@ class AuthService
         $response = Http::withHeaders([
             'Accept' => 'application/json',
         ])->withToken($access_token)->get($this->request_host.'/api/user?area='.$area);
-        return  $response->json();
+        $userData = $response->json();
 
         $userAdmin = UserAdmin::updateOrCreate(
             ["email" => $userData['email']],

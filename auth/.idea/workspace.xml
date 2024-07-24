@@ -4,7 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d1269ae-8888-4c14-8399-d72f2384c6b4" name="Changes" comment="" />
+    <list default="true" id="0d1269ae-8888-4c14-8399-d72f2384c6b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/src/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Access/ListData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Classes/Access/ListData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Access/LoadOptions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/IsLoggedIn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/LoadFormPasswordReset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/ProcessRecoverPassword.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/ProcessSendLinkResetPassword.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/RecoverPassword/DeletePassWordReset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/RecoverPassword/SaveNewPassword.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/RecoverPasswordLink.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/SaveLinkResetPassword/SavePasswordReset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/SaveLinkResetPassword/SendEmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/VerifyAuthRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Auth/VerifyTokenValid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/CreateDBSeed/User/CreateUserAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Classes/CreateDBSeed/User/CreateUserAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Helper/Hash.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Helper/Helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Helper/MakeFileName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Helper/SetArrayValue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Helper/SetCharacter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Helper/SetQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Classes/Helper/TestData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/Admin/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/AuthUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/AuthUserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/UserAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/UserAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/UserAdminPasswordReset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/UserAdminProfileImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/factories/UserAdminProfileImageFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2014_09_11_000005_create_user_admins.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2014_09_11_000005_create_user_admins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2014_09_11_000008_create_user_admin_pass_resets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2014_10_12_000007_create_user_admin_profile_images.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2022_12_02_173727_add_email_status.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2024_04_19_233334_create_add_admin_user_info_image_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/forgot_password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/forgot_password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../database/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/.idea/supervisor_admin_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/.idea/supervisor_admin_website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Classes/Helper/Helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Classes/Helper/MakeFileName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Classes/Helper/SetArrayValue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Classes/Helper/SetCharacter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Classes/Helper/SetELKCharacter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Classes/Helper/SetQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Classes/Helper/TestData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Http/Controllers/Admin/UserInfoController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/Provider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/ProviderAddress.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/ProviderBankDetale.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/ProviderCommercialInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/ProviderContact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/ProviderPersonalInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/UserAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Models/UserAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Services/AuthService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/app/Services/AuthService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_11_04_122857_create_providers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_11_04_122858_create_providers_commercial_infos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_11_04_122859_create_providers_personal_infos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_11_04_122918_create_provider_addresses_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_11_04_122935_create_provider_contacts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_11_04_123004_create_provider_bank_detales_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_12_08_135354_add_provider_commercial_infos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/database/migrations/2022_12_08_140052_add_provider_infos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../supervisor_admin_website/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../supervisor_admin_website/src/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,21 +254,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/murilo/Docker/labs/sso_laravel_vue/auth&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/murilo/Docker/labs/sso_laravel_vue/auth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/Classes" />
@@ -262,8 +342,7 @@
       <workItem from="1721784199296" duration="1404000" />
       <workItem from="1721829079502" duration="4265000" />
       <workItem from="1721840198094" duration="1510000" />
-      <workItem from="1721841730960" duration="1246000" />
-      <workItem from="1721853372841" duration="111000" />
+      <workItem from="1721841730960" duration="3192000" />
     </task>
     <servers />
   </component>

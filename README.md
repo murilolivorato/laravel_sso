@@ -1,7 +1,7 @@
 
 # Laravel SSO 
 ## Instructions -
-https://medium.com/@murilolivorato/setting-up-a-laravel-development-environment-with-docker-and-docker-compose-a-step-by-step-5e37670ae640
+https://medium.com/@murilolivorato/implementing-single-sign-on-sso-with-laravel-step-by-step-c8cdf093b78a
 
 
 
