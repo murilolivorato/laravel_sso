@@ -4,6 +4,8 @@ This is the **SSO (Single Sign-On) Server** for Laravel applications. It manages
 
 📖 [Step-by-step tutorial on Medium](https://medium.com/@murilolivorato/implementing-single-sign-on-sso-with-laravel-step-by-step-c8cdf093b78a)
 
+![Login Page](https://miro.medium.com/v2/resize:fit:700/1*kFA_UNGQ2kEliPHGHVw7CQ.png)
+
 ---
 
 ## 🚀 Setup
