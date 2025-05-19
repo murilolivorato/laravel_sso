@@ -4,7 +4,25 @@ This is the **SSO (Single Sign-On) Server** for Laravel applications. It manages
 
 📖 [Step-by-step tutorial on Medium](https://medium.com/@murilolivorato/implementing-single-sign-on-sso-with-laravel-step-by-step-c8cdf093b78a)
 
-![Login Page](https://miro.medium.com/v2/resize:fit:700/1*kFA_UNGQ2kEliPHGHVw7CQ.png)
+<p align="center">
+<img src="https://miro.medium.com/v2/resize:fit:700/1*kFA_UNGQ2kEliPHGHVw7CQ.png" alt="Login Page" />
+</p>
+
+Laravel provides solutions for SSO (Single Sign-On) authentication with Laravel Passport , enabling users to access multiple applications with a single set of credentials, making it easy to implement a robust and secure SSO solution.
+
+I shared my solution at this code .
+
+## What I did 
+
+I created 2 Laravel projects and I used Laravel Passport for OAuth2 authorization .
+
+The Auth project — is responsible to allows and centralize those users .
+The Supervisor project — it is the backend for the adminstrator area for supervisor users .
+
+<p align="center">
+<img src="https://miro.medium.com/v2/resize:fit:674/1*NBrj-Uh_RVEiTtphwxNd5w.png" alt="Login Page" />
+</p>
+
 
 ---
 
@@ -79,4 +97,30 @@ php artisan migrate --seed
 ## 👨‍💻 Author
 
 **Murilo Livorato**  
-🔗 [Medium Article](https://medium.com/@murilolivorato/implementing-single-sign-on-sso-with-laravel-step-by-step-c8cdf093b78a)
+🔗 [Medium Article](https://medium.com/@murilolivorato/implementing-single-sign-on-sso-with-laravel-step-by-step-c8cdf093b78)
+
+
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](https://miro.medium.com/v2/resize:fit:700/1*_wY6UPR2uUZ0hZcwlVEvjQ.png)
+
+### Admin Area
+![Admin Area](https://miro.medium.com/v2/resize:fit:700/1*x5TXkOMByszt5MH90OgqAA.png)
+
+### Access Area
+![Access Area](https://miro.medium.com/v2/resize:fit:700/1*XcGOi7oKoFVUUWXGtSAFXg.png)
+
+
+
+<div align="center">
+  <h3>⭐ Star This Repository ⭐</h3>
+  <p>Your support helps us improve and maintain this project!</p>
+  <a href="https://github.com/murilolivorato/laravel_sso/stargazers">
+    <img src="https://img.shields.io/github/stars/murilolivorato/laravel_sso?style=social" alt="GitHub Stars">
+  </a>
+</div>
+
+
+
